@@ -11,11 +11,13 @@
 		6763051C4FA7181B50324126FD0CD46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		72AB9531A5A653A9F61D44DBBFAD3804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		81157B1A223FE871243D91B656C0B334 /* Pods-Swift-extensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C25F82C6D1C2F36931190F1A5E945C0 /* Pods-Swift-extensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99CC5F5E6BEF6C54398B63C46707BA49 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B845AE55DA95821ED1A90FF1697245 /* UITableView+Extensions.swift */; };
+		99CC5F5E6BEF6C54398B63C46707BA49 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B845AE55DA95821ED1A90FF1697245 /* UITableView+Extension.swift */; };
 		9B3FEE51EE6EB0ABA953B224392ABABF /* Swift-extensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC07D7AF76C9F5176E449B94302B3F10 /* Swift-extensions-dummy.m */; };
 		B0F203266E06DDE72D116E98A1B1B58B /* Pods-Swift-extensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7BFAB07D725E9EA710B6284B5A2AE /* Pods-Swift-extensions_Tests-dummy.m */; };
 		C4E477C57FC046B343B2F6A609038471 /* Swift-extensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC220D137677F1FF6B2B432A3EBCF78 /* Swift-extensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7C764147DED1094545D7DD00EB0361D /* Pods-Swift-extensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73537F64BA93B1FFD7BFE69ED6C2CAF3 /* Pods-Swift-extensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36E92AA22281A34008DCC55 /* UIViewController+PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E92A922281A34008DCC55 /* UIViewController+PopupDialog.swift */; };
+		D3F6042D22660BCF003FEF4B /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F6042C22660BCF003FEF4B /* UICollectionView+Extension.swift */; };
 		DFAF0429CE1FEE74D637EEF0BC585923 /* Pods-Swift-extensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA6CB0A12362A0EF3D9B0E104E1EBE2 /* Pods-Swift-extensions_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -63,10 +65,12 @@
 		AC07D7AF76C9F5176E449B94302B3F10 /* Swift-extensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swift-extensions-dummy.m"; sourceTree = "<group>"; };
 		B05D6F4791876A1790661D6AC9B7A415 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF7015844F50C0316FE91683A2FF612D /* Pods-Swift-extensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swift-extensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C7B845AE55DA95821ED1A90FF1697245 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Extensions.swift"; path = "Swift-extensions/Classes/UIKit/UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		C7B845AE55DA95821ED1A90FF1697245 /* UITableView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Extension.swift"; path = "Swift-extensions/Classes/UIKit/UITableView+Extension.swift"; sourceTree = "<group>"; };
 		C85D9AD15F8A51880966FBCF51BA893A /* Pods-Swift-extensions_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swift-extensions_Tests-resources.sh"; sourceTree = "<group>"; };
 		CD9B1EC78AF93049BC05559F98546FEF /* Pods_Swift_extensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_extensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BCBF49BE1D125E03E6836250A28D61 /* Swift-extensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Swift-extensions.xcconfig"; sourceTree = "<group>"; };
+		D36E92A922281A34008DCC55 /* UIViewController+PopupDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PopupDialog.swift"; sourceTree = "<group>"; };
+		D3F6042C22660BCF003FEF4B /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
 		D7D816963AA0436CC80F00371E967DB4 /* Pods-Swift-extensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swift-extensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D8519ABA5DE572FBBD7D5184C50BB70F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E179C4BE60C03A4C3A9B8CA6B1B3253E /* Swift-extensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Swift-extensions.modulemap"; sourceTree = "<group>"; };
@@ -155,7 +159,9 @@
 		7BFD34BFD36042E9E4FE6B0CA25A32FD /* Swift-extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C7B845AE55DA95821ED1A90FF1697245 /* UITableView+Extensions.swift */,
+				C7B845AE55DA95821ED1A90FF1697245 /* UITableView+Extension.swift */,
+				D3F6042C22660BCF003FEF4B /* UICollectionView+Extension.swift */,
+				D36E92A922281A34008DCC55 /* UIViewController+PopupDialog.swift */,
 				3D8F4ED7F949EF893F9209BEAD0B07C2 /* Pod */,
 				01DD29A7C124673A43810788D4CE0A14 /* Support Files */,
 			);
@@ -318,6 +324,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					F8805C3C2C61D4E6F91570607645648E = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -352,7 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B3FEE51EE6EB0ABA953B224392ABABF /* Swift-extensions-dummy.m in Sources */,
-				99CC5F5E6BEF6C54398B63C46707BA49 /* UITableView+Extensions.swift in Sources */,
+				99CC5F5E6BEF6C54398B63C46707BA49 /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +371,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F6042D22660BCF003FEF4B /* UICollectionView+Extension.swift in Sources */,
 				DFAF0429CE1FEE74D637EEF0BC585923 /* Pods-Swift-extensions_Example-dummy.m in Sources */,
+				D36E92AA22281A34008DCC55 /* UIViewController+PopupDialog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +620,7 @@
 			baseConfigurationReference = D7D816963AA0436CC80F00371E967DB4 /* Pods-Swift-extensions_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -631,6 +645,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -642,6 +657,7 @@
 			baseConfigurationReference = 118D588180A5E637AB4EEAEEF6E352FE /* Pods-Swift-extensions_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -665,6 +681,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
